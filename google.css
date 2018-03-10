@@ -1,0 +1,39 @@
+form {
+  height:50px;
+  text-align: center;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  Padding: 0;
+  overflow: hidden;
+}
+li {
+  float: right;
+  padding: 10px 12px;
+}
+li a:link {
+  text-decoration: none;
+  color: gray;
+}
+li a:hover {
+  text-decoration: underline;
+}
+.footerLeft {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    float: left;
+}
+.footerRight {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
